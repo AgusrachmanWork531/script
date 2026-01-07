@@ -1,0 +1,22 @@
+{
+  "name": "update-data-nipnas",
+  "version": "1.0.0",
+  "description": "PostgreSQL database connection and data fetcher for NIPNAS data",
+  "main": "update_data_nipnas.js",
+  "scripts": {
+    "start": "node update_data_nipnas.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgresql",
+    "database",
+    "nipnas"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.16.3",
+    "dotenv": "^16.3.1",
+    "xlsx": "^0.18.5"
+  }
+}
